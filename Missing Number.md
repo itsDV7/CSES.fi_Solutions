@@ -19,7 +19,7 @@ Constraints<br>
 Example
 
 Input:<br>
-`5`
+`5`<br>
 `2 3 1 5`
 
 Output:<br>
