@@ -468,10 +468,37 @@ cbaaa
 
 ### [View Solution](https://github.com/itsDV7/CSES.fi_Solutions/blob/main/Introductory%20Problems/Creating%20Strings.py)
 
-# Problem 16 - Apple Division
+## Problem 16 - Apple Division
 
-# Problem 17 - Chessboard and Queens
+There are n apples with known weights. Your task is to divide the apples into two groups so that the difference between the weights of the groups is minimal.
 
-# Problem 18 - Digit Queries
+Input<br>
+The first input line has an integer n: the number of apples.<br>
+The next line has n integers p1, p2, …, pn: the weight of each apple.
 
-# Problem 19 - Grid Paths
+Output<br>
+Print one integer: the minimum difference between the weights of the groups.
+
+Constraints<br>
+1 ≤ n ≤ 20<br>
+1 ≤ p<sub>i</sub> ≤ 10<sup>9</sup>
+
+Example<br>
+Input:
+```
+5
+3 2 7 4 1
+```
+Output:
+```
+1
+```
+Explanation: Group 1 has weights 2, 3 and 4 (total weight 9), and group 2 has weights 1 and 7 (total weight 8).
+
+### [View Solution](https://github.com/itsDV7/CSES.fi_Solutions/blob/main/Introductory%20Problems/Apple%20Division.py)
+
+## Problem 17 - Chessboard and Queens
+
+## Problem 18 - Digit Queries
+
+## Problem 19 - Grid Paths
