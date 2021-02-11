@@ -501,4 +501,38 @@ Explanation: Group 1 has weights 2, 3 and 4 (total weight 9), and group 2 has we
 
 ## Problem 18 - Digit Queries
 
+Consider an infinite string that consists of all positive integers in increasing order:
+
+12345678910111213141516171819202122232425...
+
+Your task is to process q queries of the form: what is the digit at position k in the string?
+
+Input<br>
+The first input line has an integer q: the number of queries.<br>
+After this, there are q lines that describe the queries. Each line has an integer k: a 1-indexed position in the string.
+
+Output<br>
+For each query, print the corresponding digit.
+
+Constraints<br>
+1≤q≤1000<br>
+1≤k≤10<sup>18</sup>
+
+Example<br>
+Input:
+```
+3
+7
+19
+12
+```
+Output:
+```
+7
+4
+1
+```
+
+### [View Solution](https://github.com/itsDV7/CSES.fi_Solutions/blob/main/Introductory%20Problems/Digit%20Queries.py)
+
 ## Problem 19 - Grid Paths
